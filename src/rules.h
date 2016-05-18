@@ -181,13 +181,33 @@ typedef enum _action_type{
     drop,
     log,
     pass,
-    reject
+    reject,
+    activate,
+    dynamic
 }ActionType;
 
 typedef enum _action_description{
     allow,
-    deny
+    deny,
+    log
 }ActionDesc;
+
+typedef struct _properties_opts{
+    int propLength;
+    char *msg;
+    char *content;
+    char *nocase;
+    char *flow;
+    char *reference;
+    char *classtype;
+    char *sid;
+    char *rev;
+    char *icmp_id;
+    char *icmp_seq;
+    char *itype;
+    char *offset;
+    char *depth;
+}Properties;
 
 typedef struct _basic_match{
     uint16_t spts[2];    /* source ports range */
@@ -202,6 +222,8 @@ typedef struct _ruletable_rule{
     uint8_t priority;
     ActionType acttype;
     ActionDesc actdesc;
+    Properties prop;
+    int length;
 }RuleTableRule;
 
 typedef struct _ruletable_node{
