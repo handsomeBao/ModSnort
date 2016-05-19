@@ -27,7 +27,7 @@
 #define __SP_PREPROCOPT_H_
 
 #include "sf_dynamic_engine.h"
-#include "sfghash.h"
+#include "../sfutil/sfghash.h"
 
 SFGHASH * PreprocessorRuleOptionsNew(void);
 void PreprocessorRuleOptionsFree(SFGHASH *);

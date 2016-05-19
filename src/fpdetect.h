@@ -38,9 +38,9 @@
 #include "fpcreate.h"
 #include "snort_debug.h"
 #include "decode.h"
-#include "sflsq.h"
+#include "sfutil/sflsq.h"
 #include "event_queue.h"
-#include "sfPolicy.h"
+#include "sfutil/sfPolicy.h"
 
 #define REBUILD_FLAGS (PKT_REBUILT_FRAG | PKT_REBUILT_STREAM)
 

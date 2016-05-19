@@ -32,8 +32,8 @@
  * @{
  */
 
-#include "ipv6_port.h"
-#include "parser/IpAddrSet.h"
+#include "../ipv6_port.h"
+#include "../parser/IpAddrSet.h"
 
 #include "sflsq.h"
 #include "sfghash.h"

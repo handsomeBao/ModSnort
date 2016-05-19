@@ -33,21 +33,21 @@
 #endif
 #include <errno.h>
 
-#include "sf_types.h"
-#include "snort_bounds.h"
-#include "rules.h"
-#include "decode.h"
-#include "plugbase.h"
-#include "parser.h"
-#include "snort_debug.h"
-#include "util.h"
-#include "mstring.h"
+#include "../sf_types.h"
+#include "../snort_bounds.h"
+#include "../rules.h"
+#include "../decode.h"
+#include "../plugbase.h"
+#include "../parser.h"
+#include "../snort_debug.h"
+#include "../util.h"
+#include "../mstring.h"
 
-#include "snort.h"
-#include "profiler.h"
+#include "../snort.h"
+#include "../profiler.h"
 #include "sp_appid.h"
-#include "appIdApi.h"
-#include "preprocessors/stream_api.h"
+#include "../appIdApi.h"
+#include "../dynamic-preprocessors/include/stream_api.h"
 #ifdef PERF_PROFILING
 PreprocStats appIdPerfStats;
 extern PreprocStats ruleOTNEvalPerfStats;
@@ -56,8 +56,8 @@ extern PreprocStats ruleOTNEvalPerfStats;
 #define CONF_SEPARATORS         ",\t\n\r"
 
 #include "detection_options.h"
-#include "detection_util.h"
-#include "sftarget_protocol_reference.h" 
+#include "../detection_util.h"
+#include "../target-based/sftarget_protocol_reference.h"
 #include "sp_appid.h" 
 //#include "sf_dynamic_preprocessor.h"
 

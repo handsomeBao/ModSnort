@@ -53,9 +53,9 @@ u2boat-u2boat.o: u2boat.c /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/arpa/inet.h \
- /usr/local/include/pcap.h /usr/local/include/pcap/pcap.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/local/include/pcap/bpf.h \
- ../../config.h u2boat.h ../../src/sfutil/Unified2_common.h
+ /usr/include/pcap/pcap.h /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/local/include/pcap/bpf.h ../../config.h u2boat.h \
+ ../../src/sfutil/Unified2_common.h
 
 /usr/include/stdc-predef.h:
 
@@ -205,9 +205,7 @@ u2boat-u2boat.o: u2boat.c /usr/include/stdc-predef.h /usr/include/stdio.h \
 
 /usr/include/arpa/inet.h:
 
-/usr/local/include/pcap.h:
-
-/usr/local/include/pcap/pcap.h:
+/usr/include/pcap/pcap.h:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 

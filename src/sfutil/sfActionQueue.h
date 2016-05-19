@@ -21,7 +21,7 @@
 #ifndef _SF_ACTION_QUEUE_
 #define _SF_ACTION_QUEUE_
 
-#include "mempool.h"
+#include "../mempool.h"
 
 typedef struct 
 {

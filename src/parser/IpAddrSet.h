@@ -26,10 +26,10 @@
 #define __IP_ADDR_SET_H__
 
 #include <sys/types.h>
-#include "sf_types.h"
+#include "../sf_types.h"
 
-# include "ipv6_port.h"
-# include "sfutil/sf_ipvar.h"
+# include "../ipv6_port.h"
+# include "../sfutil/sf_ipvar.h"
 
 
 

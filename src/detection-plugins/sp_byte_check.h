@@ -24,9 +24,9 @@
 #ifndef __SP_BYTE_CHECK_H__
 #define __SP_BYTE_CHECK_H__
 
-#include "sf_engine/sf_snort_plugin_api.h"
-#include "decode.h"
-#include "plugbase.h"
+#include "../dynamic-plugins/sf_engine/sf_snort_plugin_api.h"
+#include "../decode.h"
+#include "../plugbase.h"
 
 #define BT_LESS_THAN            CHECK_LT
 #define BT_EQUALS               CHECK_EQ

@@ -27,7 +27,7 @@
 # include "config.h"
 #endif
 
-#include "bitop_funcs.h"
+#include "sfutil/bitop_funcs.h"
 #include "rules.h"
 #include "treenodes.h"
 #include "sf_types.h"

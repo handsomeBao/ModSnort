@@ -32,7 +32,7 @@
 #define _PCRM_H
 
 #include "decode.h"
-#include "bitop.h"
+#include "sfutil/bitop.h"
 
 typedef void * RULE_PTR;
 

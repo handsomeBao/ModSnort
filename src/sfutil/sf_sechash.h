@@ -29,7 +29,7 @@
 #define MD5_HASH_SIZE    16
 
 /*  I N C L U D E S  *****************************************************/
-#include "config.h"
+#include "../../config.h"
 #include <stdlib.h>
 
 #ifdef HAVE_OPENSSL_SHA

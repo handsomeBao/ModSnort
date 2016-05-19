@@ -54,9 +54,9 @@
 #include "perf-base.h"
 #include "perf-flow.h"
 #include "perf-event.h"
-#include "sf_types.h"
-#include "snort_debug.h"
-#include "decode.h"
+#include "../sf_types.h"
+#include "../snort_debug.h"
+#include "../decode.h"
 
 // Perf Flags
 #define SFPERF_BASE             0x00000001

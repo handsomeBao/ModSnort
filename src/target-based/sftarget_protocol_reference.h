@@ -26,8 +26,8 @@
 #ifndef SFTARGET_PROTOCOL_REFERENCE_TABLE_H_
 #define SFTARGET_PROTOCOL_REFERENCE_TABLE_H_
 
-#include "decode.h"
-#include "util.h"
+#include "../decode.h"
+#include "../util.h"
 
 #define MAX_PROTOCOL_ORDINAL 8192
 

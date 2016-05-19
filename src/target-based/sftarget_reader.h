@@ -26,7 +26,7 @@
 #ifndef SF_TARGET_READER_H_
 #define SF_TARGET_READER_H_
 
-#include "snort.h"
+#include "../snort.h"
 
 #define SFAT_OK 0
 #define SFAT_ERROR -1

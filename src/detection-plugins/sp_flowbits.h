@@ -26,11 +26,11 @@
 #ifndef __SP_FLOWBITS_H__
 #define __SP_FLOWBITS_H__
 
-#include "sfghash.h"
-#include "sf_types.h"
-#include "decode.h"
-#include "bitop_funcs.h"
-#include "snort_debug.h"
+#include "../sfutil/sfghash.h"
+#include "../sf_types.h"
+#include "../decode.h"
+#include "../sfutil/bitop_funcs.h"
+#include "../snort_debug.h"
 
 /* Normally exported functions, for plugin registration. */
 void SetupFlowBits(void);

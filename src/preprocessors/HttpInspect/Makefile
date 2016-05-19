@@ -226,9 +226,9 @@ CC = gcc
 CCDEPMODE = depmode=gcc3
 CCONFIGFLAGS = 
 CFLAGS = -g -O2 -DSF_VISIBILITY -fvisibility=hidden -fno-strict-aliasing -Wall
-CONFIGFLAGS =  -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
+CONFIGFLAGS =  -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
 CPP = gcc -E
-CPPFLAGS = -I/usr/local/include -DGRE -DMPLS -DPPM_MGR -DNDEBUG -DENABLE_REACT -DENABLE_RESPOND -DENABLE_RESPONSE3 -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
+CPPFLAGS = -I/usr/local/include -DGRE -DMPLS -DPPM_MGR -DNDEBUG -DSOURCEFIRE -DPPM_MGR -DENABLE_REACT -DENABLE_RESPOND -DENABLE_RESPONSE3 -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -253,7 +253,7 @@ LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS =  -lpcre -L/usr/local/lib -ldnet
 LEX = flex
 LIBOBJS = 
-LIBS = -lz -ldaq_static -ldnet -lpcre -lpcap -lnsl -lm -lm  -ldl -L/usr/local/lib -ldaq_static_modules  -lsfbpf -lpcap -lsfbpf -lpcap -lz -lpthread -lpthread -lpthread
+LIBS = -lz -ldaq_static -ldnet -lpcre -lpcap -lnsl -lm -lm  -lcrypto -ldl -L/usr/local/lib -ldaq_static_modules  -lsfbpf -lpcap -lsfbpf -lpcap -lz -lpthread -lpthread -lpthread
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s

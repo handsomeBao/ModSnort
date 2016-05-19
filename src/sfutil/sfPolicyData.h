@@ -22,7 +22,7 @@
 #ifndef _SF_POLICY_DATA_H_
 #define _SF_POLICY_DATA_H_
 
-#include "generators.h"
+#include "../generators.h"
 #include "sfPolicy.h"
 
 extern tSfPolicyId napRuntimePolicyId;

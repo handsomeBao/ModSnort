@@ -33,7 +33,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#include "snort.h"
+#include "../snort.h"
 #include "sfcontrol_funcs.h"
 #include "sfcontrol.h"
 

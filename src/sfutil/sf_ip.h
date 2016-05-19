@@ -38,7 +38,7 @@
 #include <arpa/inet.h>
 #endif
 
-#include "snort_debug.h" /* for inline definition */
+#include "../snort_debug.h" /* for inline definition */
 
 /* define SFIP_ROBUST to check pointers passed into the sfip libs.
  * Robustification should not be enabled if the client code is trustworthy.

@@ -23,7 +23,7 @@
 #ifndef _SF_BASE64DECODE_H_
 #define _SF_BASE64DECODE_H_
 
-#include "sf_types.h"
+#include "../sf_types.h"
 #include "util_unfold.h"
 
 int sf_base64decode(uint8_t*, uint32_t, uint8_t*, uint32_t, uint32_t*); 

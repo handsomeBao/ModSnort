@@ -29,10 +29,10 @@
 #ifndef _PERF_FLOW_H
 #define _PERF_FLOW_H
 
-#include "sf_types.h"
-#include "sfxhash.h"
-#include "ipv6_port.h"
-#include "decode.h"
+#include "../sf_types.h"
+#include "../sfutil/sfxhash.h"
+#include "../ipv6_port.h"
+#include "../decode.h"
 
 #define SF_MAX_PKT_LEN  9000
 #define SF_MAX_PORT     UINT16_MAX

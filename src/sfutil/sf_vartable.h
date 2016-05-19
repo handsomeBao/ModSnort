@@ -30,7 +30,7 @@
 #ifndef SF_VARTABLE_H
 #define SF_VARTABLE_H
 
-#include "ipv6_port.h"
+#include "../ipv6_port.h"
 #include "sf_ipvar.h"
 
 /* Allocates new variable table */

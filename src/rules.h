@@ -33,11 +33,11 @@
 #include "signature.h"
 #include "parser/IpAddrSet.h"
 #include "spo_plugbase.h"
-#include "sf_vartable.h"
+#include "sfutil/sf_vartable.h"
 #include "sf_types.h"
 #include "plugin_enum.h"
 #include "sfutil/sfportobject.h"
-#include "detection_options.h"
+#include "detection-plugins/detection_options.h"
 
 #define EXCEPT_SRC_IP  0x01
 #define EXCEPT_DST_IP  0x02

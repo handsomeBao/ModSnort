@@ -28,10 +28,10 @@
 
 #include "sf_dynamic_define.h"
 #include "sf_dynamic_engine.h"
-#include "snort.h"
-#include "sf_types.h"
+#include "../snort.h"
+#include "../sf_types.h"
 #include "sf_engine/sf_snort_plugin_api.h"
-#include "detection-plugins/sp_pattern_match.h"
+#include "../detection-plugins/sp_pattern_match.h"
 
 extern char *snort_conf_dir;
 

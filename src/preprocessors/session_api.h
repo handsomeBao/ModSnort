@@ -42,11 +42,11 @@
 
 #include <sys/types.h>
 
-#include "ipv6_port.h"
-#include "preprocids.h" /* IDs are used when setting preproc specific data */
-#include "bitop.h"
-#include "decode.h"
-#include "sfPolicy.h"
+#include "../ipv6_port.h"
+#include "../preprocids.h" /* IDs are used when setting preproc specific data */
+#include "../sfutil/bitop.h"
+#include "../decode.h"
+#include "../dynamic-preprocessors/include/sfPolicy.h"
 
 /* default limits */
 #define STREAM_DEFAULT_PRUNE_QUANTA  30       /* seconds to timeout a session */

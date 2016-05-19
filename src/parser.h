@@ -29,12 +29,13 @@
 #endif
 
 #include <stdio.h>
-#include <sfPolicy.h>
+//#include <sfPolicy.h>
+#include "dynamic-preprocessors/include/sfPolicy.h"
 
 #include "rules.h"
 #include "treenodes.h"
 #include "decode.h"
-#include "sflsq.h"
+#include "sfutil/sflsq.h"
 #include "snort.h"
 #include "util.h"
 

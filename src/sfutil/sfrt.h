@@ -100,8 +100,8 @@
 #include <stdlib.h>
 #include <sys/types.h>
 #include "sfrt_trie.h"
-#include "snort_debug.h"
-#include "ipv6_port.h"
+#include "../snort_debug.h"
+#include "../ipv6_port.h"
 
 typedef sfcidr_t *IP;
 typedef void* GENERIC;   /* To be replaced with a pointer to a policy */

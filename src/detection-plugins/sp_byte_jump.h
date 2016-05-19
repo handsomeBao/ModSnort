@@ -24,8 +24,8 @@
 #ifndef __SP_BYTE_JUMP_H__
 #define __SP_BYTE_JUMP_H__
 
-#include "decode.h"
-#include "plugbase.h"
+#include "../decode.h"
+#include "../plugbase.h"
 
 typedef struct _ByteJumpData
 {

@@ -22,8 +22,8 @@
 #ifndef __SP_BYTE_EXTRACT_H__
 #define __SP_BYTE_EXTRACT_H__
 
-#include "decode.h"
-#include "plugbase.h"
+#include "../decode.h"
+#include "../plugbase.h"
 
 #define BYTE_EXTRACT_SUCCESS 1
 #define BYTE_EXTRACT_FAILURE -1

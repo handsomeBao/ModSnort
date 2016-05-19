@@ -25,12 +25,12 @@
 
 #include <ctype.h>
 
-#include "snort.h"
-#include "snort_debug.h"
-#include "rules.h" /* needed for OptTreeNode defintion */
-#include "treenodes.h"
-#include "detection_util.h"
-#include "hashstring.h"
+#include "../snort.h"
+#include "../snort_debug.h"
+#include "../rules.h" /* needed for OptTreeNode defintion */
+#include "../treenodes.h"
+#include "../detection_util.h"
+#include "../hashstring.h"
 
 /********************************************************************
  * Macros

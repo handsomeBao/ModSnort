@@ -119,8 +119,8 @@ am__libsfutil_a_SOURCES_DIST = sfghash.c sfghash.h sfhashfcn.c \
 	sf_seqnums.h mpse_methods.h sfdebug.h intel-soft-cpm.c \
 	intel-soft-cpm.h md5.c md5.h sha2.c sha2.h
 #am__objects_1 = intel-soft-cpm.$(OBJEXT)
-am__objects_2 = md5.$(OBJEXT)
-am__objects_3 = sha2.$(OBJEXT)
+#am__objects_2 = md5.$(OBJEXT)
+#am__objects_3 = sha2.$(OBJEXT)
 am_libsfutil_a_OBJECTS = sfghash.$(OBJEXT) sfhashfcn.$(OBJEXT) \
 	sflsq.$(OBJEXT) sfmemcap.$(OBJEXT) sfthd.$(OBJEXT) \
 	sfxhash.$(OBJEXT) ipobj.$(OBJEXT) getopt_long.$(OBJEXT) \
@@ -215,9 +215,9 @@ CC = gcc
 CCDEPMODE = depmode=gcc3
 CCONFIGFLAGS = 
 CFLAGS = -g -O2 -DSF_VISIBILITY -fvisibility=hidden -fno-strict-aliasing -Wall
-CONFIGFLAGS =  -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
+CONFIGFLAGS =  -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
 CPP = gcc -E
-CPPFLAGS = -I/usr/local/include -DGRE -DMPLS -DPPM_MGR -DNDEBUG -DENABLE_REACT -DENABLE_RESPOND -DENABLE_RESPONSE3 -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
+CPPFLAGS = -I/usr/local/include -DGRE -DMPLS -DPPM_MGR -DNDEBUG -DSOURCEFIRE -DPPM_MGR -DENABLE_REACT -DENABLE_RESPOND -DENABLE_RESPONSE3 -DSF_WCHAR -DTARGET_BASED -DPERF_PROFILING -DPERF_PROFILING -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -242,7 +242,7 @@ LD = /usr/bin/ld -m elf_x86_64
 LDFLAGS =  -lpcre -L/usr/local/lib -ldnet
 LEX = flex
 LIBOBJS = 
-LIBS = -lz -ldaq_static -ldnet -lpcre -lpcap -lnsl -lm -lm  -ldl -L/usr/local/lib -ldaq_static_modules  -lsfbpf -lpcap -lsfbpf -lpcap -lz -lpthread -lpthread -lpthread
+LIBS = -lz -ldaq_static -ldnet -lpcre -lpcap -lnsl -lm -lm  -lcrypto -ldl -L/usr/local/lib -ldaq_static_modules  -lsfbpf -lpcap -lsfbpf -lpcap -lz -lpthread -lpthread -lpthread
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = ln -s
@@ -339,11 +339,11 @@ top_srcdir = ../..
 AUTOMAKE_OPTIONS = foreign no-dependencies
 noinst_LIBRARIES = libsfutil.a
 #INTEL_SOFT_CPM_SOURCES = intel-soft-cpm.c intel-soft-cpm.h
-OPENSSL_MD5 = \
-    md5.c md5.h 
+#OPENSSL_MD5 = \
+#    md5.c md5.h 
 
-OPENSSL_SHA = \
-    sha2.c sha2.h
+#OPENSSL_SHA = \
+#    sha2.c sha2.h
 
 libsfutil_a_SOURCES = \
     sfghash.c sfghash.h \

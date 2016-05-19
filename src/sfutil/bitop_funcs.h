@@ -42,7 +42,7 @@
 #include "config.h"
 #endif
 
-#include "snort_debug.h"
+#include "../snort_debug.h"
 #include "bitop.h"
 
 /*

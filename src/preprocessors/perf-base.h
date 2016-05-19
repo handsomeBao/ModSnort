@@ -36,9 +36,9 @@
 #endif
 
 #include "sfprocpidstats.h"
-#include "sf_types.h"
-#include "snort_debug.h"
-#include "decode.h"
+#include "../sf_types.h"
+#include "../snort_debug.h"
+#include "../decode.h"
 
 #ifdef NORMALIZER
 #include "spp_normalize.h"

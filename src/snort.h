@@ -35,7 +35,7 @@
 #include "sf_types.h"
 #include "spo_plugbase.h"
 #include "decode.h"
-#include "perf.h"
+#include "preprocessors/perf.h"
 #include "sfdaq.h"
 #include "sf_types.h"
 #include "sfutil/sflsq.h"

@@ -35,10 +35,10 @@
 #ifndef DETECTION_OPTIONS_H_
 #define DETECTION_OPTIONS_H_
 
-#include "sf_types.h"
-#include "decode.h"
-#include "sfutil/sfxhash.h"
-#include "rule_option_types.h"
+#include "../sf_types.h"
+#include "../decode.h"
+#include "../sfutil/sfxhash.h"
+#include "../rule_option_types.h"
 
 #define DETECTION_OPTION_EQUAL 0
 #define DETECTION_OPTION_NOT_EQUAL 1
@@ -48,7 +48,7 @@
 #define DETECTION_OPTION_NO_ALERT 2
 #define DETECTION_OPTION_FAILED_BIT 3
 
-#include "sfutil/sfhashfcn.h"
+#include "../sfutil/sfhashfcn.h"
 
 typedef int (*eval_func_t)(void *option_data, Packet *p);
 

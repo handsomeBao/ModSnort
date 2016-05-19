@@ -24,9 +24,9 @@
 #ifndef __SP_IP_PROTO_H__
 #define __SP_IP_PROTO_H__
 
-#include "rules.h"
-#include "treenodes.h"
-#include "sf_types.h"
+#include "../rules.h"
+#include "../treenodes.h"
+#include "../sf_types.h"
 
 void SetupIpProto(void);
 uint32_t IpProtoCheckHash(void *);

@@ -41,8 +41,8 @@
 #include <windows.h>
 #endif
 
-#include "sf_dynamic_define.h"
-#include "sf_dynamic_engine.h"
+#include "../sf_dynamic_define.h"
+#include "../sf_dynamic_engine.h"
 
 #define ANY_NET         "any"
 #define HOME_NET        "$HOME_NET"

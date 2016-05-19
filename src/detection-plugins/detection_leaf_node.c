@@ -31,7 +31,7 @@ CHANGE HISTORY
 #include "config.h"
 #endif
 
-#include "sftarget_reader.h"
+#include "../target-based/sftarget_reader.h"
 
 typedef enum _LEAF_STATUS {
     Leaf_SkipPorts,

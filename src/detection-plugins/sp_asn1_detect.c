@@ -60,19 +60,19 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-#include "sf_types.h"
+#include "../sf_types.h"
 
 #ifndef SF_SNORT_ENGINE_DLL
-#include "snort_debug.h"
+#include "../snort_debug.h"
 #else
 /* Ignore debug statements */
 #include <stdint.h>
 #define DEBUG_WRAP(x)
 #endif
 
-#include "sfutil/asn1.h"
+#include "../sfutil/asn1.h"
 #include "sp_asn1_detect.h"
-#include "snort.h"
+#include "../snort.h"
 
 /*
  * Check to make sure that p is less than or equal to the ptr range

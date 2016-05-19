@@ -25,8 +25,8 @@
 #ifndef __SP_HDR_OPT_WRAP_H__
 #define __SP_HDR_OPT_WRAP_H__
 
-#include "sf_engine/sf_snort_plugin_api.h"
-#include "sfhashfcn.h"
+#include "sf_snort_plugin_api.h"
+#include "../sfutil/sfhashfcn.h"
 #include "detection_options.h"
 
 uint32_t HdrOptCheckHash(void *d);

@@ -23,7 +23,7 @@
 #define _SF_POLICY_USER_DATA_H_
 
 #include "sf_ip.h"
-#include "ipv6_port.h"
+#include "../ipv6_port.h"
 #include "sfPolicy.h"
 /*SharedObjectAddStarts
 #include "sf_dynamic_preprocessor.h"

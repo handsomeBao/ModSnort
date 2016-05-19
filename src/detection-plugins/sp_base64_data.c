@@ -34,18 +34,18 @@
 #endif
 #include <errno.h>
 
-#include "sf_types.h"
-#include "snort_bounds.h"
-#include "rules.h"
-#include "decode.h"
-#include "plugbase.h"
-#include "parser.h"
-#include "snort_debug.h"
-#include "util.h"
-#include "mstring.h"
+#include "../sf_types.h"
+#include "../snort_bounds.h"
+#include "../rules.h"
+#include "../decode.h"
+#include "../plugbase.h"
+#include "../parser.h"
+#include "../snort_debug.h"
+#include "../util.h"
+#include "../mstring.h"
 
-#include "snort.h"
-#include "profiler.h"
+#include "../snort.h"
+#include "../profiler.h"
 #include "sp_base64_data.h"
 #ifdef PERF_PROFILING
 PreprocStats base64DataPerfStats;
@@ -53,7 +53,7 @@ extern PreprocStats ruleOTNEvalPerfStats;
 #endif
 
 #include "detection_options.h"
-#include "detection_util.h"
+#include "../detection_util.h"
 
 extern char *file_name;  /* this is the file name from rules.c, generally used
                             for error messages */

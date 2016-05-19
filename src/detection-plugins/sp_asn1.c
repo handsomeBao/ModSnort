@@ -61,21 +61,21 @@
 #include <ctype.h>
 #include <errno.h>
 
-#include "sf_types.h"
-#include "snort_bounds.h"
-#include "rules.h"
-#include "treenodes.h"
-#include "decode.h"
-#include "plugbase.h"
-#include "parser.h"
-#include "snort_debug.h"
-#include "util.h"
-#include "plugin_enum.h"
-#include "asn1.h"
+#include "../sf_types.h"
+#include "../snort_bounds.h"
+#include "../rules.h"
+#include "../treenodes.h"
+#include "../decode.h"
+#include "../plugbase.h"
+#include "../parser.h"
+#include "../snort_debug.h"
+#include "../util.h"
+#include "../plugin_enum.h"
+#include "../sfutil/asn1.h"
 #include "sp_asn1.h"
 #include "sp_asn1_detect.h"
-#include "sfhashfcn.h"
-#include "detection_util.h"
+#include "../sfutil/sfhashfcn.h"
+#include "../detection_util.h"
 
 #define BITSTRING_OPT  "bitstring_overflow"
 #define DOUBLE_OPT     "double_overflow"
@@ -88,14 +88,14 @@
 
 #define DELIMITERS " ,\t\n"
 
-#include "snort.h"
-#include "profiler.h"
+#include "../snort.h"
+#include "../profiler.h"
 #ifdef PERF_PROFILING
 PreprocStats asn1PerfStats;
 extern PreprocStats ruleOTNEvalPerfStats;
 #endif
 
-#include "sfhashfcn.h"
+#include "../sfutil/sfhashfcn.h"
 #include "detection_options.h"
 
 uint32_t Asn1Hash(void *d)

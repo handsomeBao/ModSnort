@@ -30,7 +30,7 @@
 #ifndef __SFPROCPIDSTATS__
 #define __SFPROCPIDSTATS__
 
-#include "config.h"
+#include "../../config.h"
 
 #ifdef LINUX_SMP
 

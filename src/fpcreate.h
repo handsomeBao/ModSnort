@@ -49,7 +49,7 @@
  */
 /* This is now defined in sftarget_protocol_refererence.h"
  * #define MAX_PROTOCOL_ORDINAL 8192 */
-#include "sftarget_protocol_reference.h"
+#include "target-based/sftarget_protocol_reference.h"
 
 
 /*

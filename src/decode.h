@@ -48,10 +48,10 @@
 #include <daq.h>
 #include <sfbpf_dlt.h>
 
-#include "bitop.h"
+#include "sfutil/bitop.h"
 #include "ipv6_port.h"
-#include "sf_ip.h"
-#include "sf_iph.h"
+#include "sfutil/sf_ip.h"
+#include "sfutil/sf_iph.h"
 #include "sf_protocols.h"
 #include "util.h"
 #include "sf_types.h"

@@ -26,7 +26,7 @@
 /*****************/
 /* IPv6 and IPv4 */
 
-#include "sf_ip.h"
+#include "sfutil/sf_ip.h"
 
 #define IpAddrNode sfip_node_t
 #define IpAddrSet sfip_var_t

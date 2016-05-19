@@ -141,16 +141,16 @@
 #define HAVE_MEMRCHR 1
 
 /* openssl MD5 available */
-/* #undef HAVE_OPENSSL_MD5 */
+#define HAVE_OPENSSL_MD5 1
 
 /* openssl SHA available */
-/* #undef HAVE_OPENSSL_SHA */
+#define HAVE_OPENSSL_SHA 1
 
 /* Define to 1 if you have the <paths.h> header file. */
 #define HAVE_PATHS_H 1
 
 /* Can cleanup lex buffer stack created by pcap bpf filter */
-#define HAVE_PCAP_LEX_DESTROY 1
+/* #undef HAVE_PCAP_LEX_DESTROY */
 
 /* Can output the library version. */
 #define HAVE_PCAP_LIB_VERSION 1

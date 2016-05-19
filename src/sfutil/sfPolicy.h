@@ -23,9 +23,9 @@
 #define _SF_POLICY_H_
 
 #include "sf_ip.h"
-#include "ipv6_port.h"
+#include "../ipv6_port.h"
 #include "sfrt.h"
-#include "snort_debug.h"
+#include "../snort_debug.h"
 
 /**Number of additional policies allocated with each re-alloc operation. */
 #define POLICY_ALLOCATION_CHUNK 10

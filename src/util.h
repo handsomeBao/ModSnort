@@ -47,7 +47,7 @@
 #include <string.h>
 
 #include "sf_types.h"
-#include "sflsq.h"
+#include "sfutil/sflsq.h"
 #include "sfutil/sf_ipvar.h"
 #include "ipv6_port.h"
 

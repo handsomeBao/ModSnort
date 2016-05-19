@@ -32,7 +32,7 @@
 #ifndef __PERF_EVENT__
 #define __PERF_EVENT__
 
-#include "sf_types.h"
+#include "../sf_types.h"
 
 typedef struct _SFEVENT {
 

@@ -23,7 +23,7 @@
 #ifndef SF_THRESHOLD
 #define SF_THRESHOLD
 
-#include "sfthd.h"
+#include "sfutil/sfthd.h"
 #include "ipv6_port.h"
 
 typedef struct _ThresholdConfig

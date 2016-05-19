@@ -23,7 +23,7 @@
 #ifndef _UTIL_UNFOLD_H_
 #define _UTIL_UNFOLD_H_
 
-#include "sf_types.h"
+#include "../sf_types.h"
 
 int sf_unfold_header(const uint8_t*, uint32_t, uint8_t*, uint32_t, uint32_t*, int, int * );
 int sf_strip_CRLF(const uint8_t*, uint32_t, uint8_t*, uint32_t, uint32_t*);

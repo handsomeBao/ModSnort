@@ -31,11 +31,11 @@
 #include "config.h"
 #endif
 
-#include "sf_dynamic_define.h"
-#include "decode.h"
+#include "../dynamic-plugins/sf_dynamic_define.h"
+#include "../decode.h"
 #include "sf_snort_plugin_api.h"
-#include "sf_dynamic_engine.h"
-#include "ipv6_port.h"
+#include "../dynamic-plugins/sf_dynamic_engine.h"
+#include "../ipv6_port.h"
 
 static int checkHdrOptInternal(void *, HdrOptCheck *);
 

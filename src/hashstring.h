@@ -23,7 +23,7 @@
 #ifndef __HASHSTRING_H__
 #define __HASHSTRING_H__
 
-#include "sf_sechash.h"
+#include "sfutil/sf_sechash.h"
 
 /*  D E F I N E S  *******************************************************/
 
